@@ -56,6 +56,7 @@ Particle Alignment:
               CNN/Transformer Autoencoder
               Deeper literature for pose estimation methods
     Debug:
+    		Train/test 10166_template
     		Reconstruct 10409 in cryoSparc
     		Try ab initio methods on our data (ribosome/in situ)
     		Compare Quat to rotMat

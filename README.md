@@ -1,6 +1,6 @@
 # logbook
 
-Particle Picking
+Particle Picking:
   * Use Yolov8 for particle picking
     - Preformed well on synthetic dataset
   

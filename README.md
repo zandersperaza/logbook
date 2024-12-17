@@ -52,13 +52,18 @@ Particle Alignment:
     Dataset:
               Supplement Cesped by aligning Cryoppp particles
                 - need to write cryosparctools script
+    		relion autorefine in pseudoknot and in situ
+    		make in situ training maps for cryosegnet fine tuning
+
     Model:
               apply cryosegnet to ribiosme/in situ
     		evauate using gisspa
     		try fine tuning
+    		continue cross training
     Debug:
     		Train/test 10166_template
     		Reconstruct 10409 in cryoSparc
     		Try ab initio methods on our data (ribosome/in situ)
-		align using relion autorefine (taking confidence as (1 - norm(alignments3D/error)) is less reliable than rlnMaxValueProb)
+		continue 10166CS training
+  		align using relion autorefine (taking confidence as (1 - norm(alignments3D/error)) is less reliable than rlnMaxValueProb)
 			    

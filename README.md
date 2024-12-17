@@ -53,10 +53,12 @@ Particle Alignment:
               Supplement Cesped by aligning Cryoppp particles
                 - need to write cryosparctools script
     Model:
-              CNN/Transformer Autoencoder
-              Deeper literature for pose estimation methods
+              apply cryosegnet to ribiosme/in situ
+    		evauate using gisspa
+    		try fine tuning
     Debug:
     		Train/test 10166_template
     		Reconstruct 10409 in cryoSparc
     		Try ab initio methods on our data (ribosome/in situ)
-    		Compare Quat to rotMat
+		align using relion autorefine (taking confidence as (1 - norm(alignments3D/error)) is less reliable than rlnMaxValueProb)
+			    
